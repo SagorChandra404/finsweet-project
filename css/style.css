@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ========common css========= */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+
+
+h1,h2,h3,h4,h5,h6,div,li,p{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+:root{
+    --poppins: 'Poppins', sans-serif;
+    --manrope: 'Manrope', sans-serif;
+}
+/* ========common css========= */
+
+
+
+/* ======== banner-navbar start========= */
+
+#banner-part{
+    padding: 32px 0;
+    background: #1C1E53;
+}
+
+#banner-part .custom_navbar ul{
+    align-items: center;
+}
+
+#banner-part .custom_navbar ul li a{
+    color: #BBBBCB;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 28px;
+    transition: all linear 0.3s;
+}
+
+#banner-part .custom_navbar ul li a:hover{
+    color: #fff;
+}
+
+#banner-part .custom_navbar .contact-btn{
+    margin-left: 40px;
+}
+
+#banner-part .custom_navbar .contact-btn button{
+    color:  #FFF;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 41px;
+    border: 2px solid #f4f6fc5e;
+    padding: 16px 48px;
+    background: transparent;
+    transition: all linear 0.3s;
+}
+
+#banner-part .custom_navbar .contact-btn button:hover{
+    background-color: #FFF;
+    color: #1C1E53;
+}
+/* ======== banner-navbar end========= */
+
+
+
+
+/* ======== banner-part start ========= */
+
+#banner-part .marpad_td{
+    padding: 200px 0;
+}
+
+#banner-part .banner-left h3{
+    color: #FFF;
+    font-family: var(--poppins);
+    font-size: 54px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#banner-part .banner-left p{
+    color:#FFF;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 50px;
+}
+
+#banner-part .banner-left .banner-left-btn {
+    margin-top: 50px;
+}
+
+
+#banner-part .banner-left .banner-left-btn a .arow_icon{
+    margin-left: 10px;
+}
+
+#banner-part .banner-left .banner-left-btn a{
+    color: #FFF;
+    font-family: var(--manrope);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 12px 50px;
+    border-radius: 41px;
+    margin-right: 40px;
+    transition: all linear 0.3s;
+}
+
+
+
+#banner-part .banner-left .banner-left-btn a:hover{
+    color: #1B1C2B;
+    background: #FCD980;
+}
+
+/* ======== banner-part end ========= */
+
+
+
+/* ======== Work-part Start ========= */
+
+#work-part{
+    padding: 130px 0;
+}
+
+#work-part  .work-left h1{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+
+}
+
+#work-part  .work-left p{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 8rem;
+}
+
+#work-part  .work-left a{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+
+#work-part  .work-left  a .arow_icon{
+    margin-left: 10px;
+}
+
+#work-part  .work-left  a:hover{
+    color: #2405F2;
+}
+
+
+#work-part .Strategy h1{
+    color:  #282938;
+    font-family: var(--poppins);
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#work-part .Strategy p{
+    color:  #282938;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-right: 3rem;
+}
+
+
+
+/* ======== Work-part end ========= */
+
+
+
+
+/* ===========Project part- start============= */
+#project-view h1{
+    color:  #282938;
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+#project-view .align-view{
+    display: flex;
+    align-items: center;
+ }
+
+#project-view a{
+
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+ }
+
+#project-view .align-view  a .right-arrow{
+    margin-left: 10px;
+} 
+
+#project-view a:hover{
+    color: #2405F2;
+}
+
+
+#project-view .pad-mar{
+    padding-top: 70px;
+}
+
+
+#project-view .pad-mar .left-img{
+    width: 843px;
+    height: 600px;
+    background: url(../images/Card.jpg);
+    position: relative;
+    overflow: hidden;
+    transition: all ease-out 1s;
+}
+
+
+
+#project-view .pad-mar .left-img .overlay {
+    left: -47%;
+    right: 0;
+    width: 396px;
+    height: 600px;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    position: absolute;
+}
+
+
+#project-view .pad-mar .left-img:hover .overlay{
+    left: 0%;
+}
+
+
+#project-view .pad-mar .left-img .overlay .overlay-text{
+    padding: 312px 35px 77px 48px;
+}
+
+#project-view .pad-mar .left-img .overlay .overlay-text h4{
+    color:  #FFF;
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+#project-view .pad-mar .left-img .overlay .overlay-text p{
+    color:  #FFF;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.8;
+    padding-bottom: 40px;
+}
+
+#project-view .pad-mar .left-img .overlay .overlay-text a{
+    color: #FCD980;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#project-view .pad-mar .left-img .overlay .overlay-text a .arrow-right{
+    margin-left: 10px;
+}
+
+#project-view .pad-mar .img-one{
+    width: 405px;
+    height: 284px;
+    background: url(../images/Rectangle\ 1313.jpg);
+    position: relative;
+    overflow: hidden;
+    transition: all ease-out 0.3s;
+}
+
+#project-view .pad-mar .img-one:hover .overlay-two{
+    left: 0%;
+}
+
+#project-view .pad-mar .img-one .overlay-two{
+    position: absolute;
+    left: -98%;
+    right: 0%;
+    width: 405px;
+    height: 284px;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+}
+
+#project-view .pad-mar .img-one .overlay-two .overlay-two-text{
+    padding: 129px 36px 45px 56px;
+}
+
+
+#project-view .pad-mar .img-one .overlay-two .overlay-two-text h4{
+    color:  #FFF;
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 21px;
+    padding-bottom: 10px;
+}
+
+#project-view .pad-mar .img-one .overlay-two .overlay-two-text a{
+    color:  #FCD980;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#project-view .pad-mar .img-one .overlay-two .overlay-two-text a .arrow-right{
+    margin-left: 10px;
+} 
+
+#project-view .pad-mar .img-two{
+    padding-top: 32px;
+    width: 405px;
+    height: 284px;
+
+}
+ 
+/* ===========Project part- end============= */
+
+
+
+
+
+
+/* ===========Features part- start============= */
+#Features-part{
+    padding: 100px 0;
+}
+
+
+#Features-part .text-center h4{
+    color:  #282938;
+    text-align: center;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+#Features-part .text-center-title{
+    width: 630px;
+    margin: 0 auto;
+}
+
+#Features-part .text-center-title h1{
+    color:  #282938;
+    text-align: center;
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+
+/* ===========Features part- end============= */
+
+
+
+
