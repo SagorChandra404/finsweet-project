@@ -514,6 +514,29 @@ h1,h2,h3,h4,h5,h6,div,li,p{
 }
 
 
+#questions-part .questions-part-right h5{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 500;
+
+} 
+
+#questions-part .questions-part-right h5 .one{
+    color: #2405F2;
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 500;
+    padding-right: 60px;
+}
+
+#questions-part .questions-part-right p{
+    color:  #282938;
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+}
+
 
 /* ===========questions-part-end============= */
 
