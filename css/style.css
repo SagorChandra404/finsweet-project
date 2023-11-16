@@ -203,6 +203,9 @@ h1,h2,h3,h4,h5,h6,div,li,p{
 
 
 /* ===========Project part- start============= */
+#project-view{
+
+}
 #project-view h1{
     color:  #282938;
     font-family: var(--poppins);
@@ -243,7 +246,7 @@ h1,h2,h3,h4,h5,h6,div,li,p{
     background: url(../images/Card.jpg);
     position: relative;
     overflow: hidden;
-    transition: all ease-out 1s;
+    
 }
 
 
@@ -260,6 +263,7 @@ h1,h2,h3,h4,h5,h6,div,li,p{
 
 #project-view .pad-mar .left-img:hover .overlay{
     left: 0%;
+    transition: all ease-out 1s;
 }
 
 
@@ -301,11 +305,12 @@ h1,h2,h3,h4,h5,h6,div,li,p{
     background: url(../images/Rectangle\ 1313.jpg);
     position: relative;
     overflow: hidden;
-    transition: all ease-out 0.3s;
+    
 }
 
 #project-view .pad-mar .img-one:hover .overlay-two{
     left: 0%;
+    transition: all ease-out 0.3s;
 }
 
 #project-view .pad-mar .img-one .overlay-two{
@@ -358,34 +363,159 @@ h1,h2,h3,h4,h5,h6,div,li,p{
 
 /* ===========Features part- start============= */
 #Features-part{
-    padding: 100px 0;
+    background: #F4F6FC;
+    padding: 128px 0;
 }
-
-
-#Features-part .text-center h4{
-    color:  #282938;
-    text-align: center;
+#Features-part h4{
+    color:#282938;
     font-family: var(--poppins);
     font-size: 16px;
     font-weight: 500;
-    margin-bottom: 15px;
+    padding-bottom: 12px;
 }
 
-#Features-part .text-center-title{
-    width: 630px;
-    margin: 0 auto;
-}
-
-#Features-part .text-center-title h1{
-    color:  #282938;
-    text-align: center;
+#Features-part .heading-width{
+    color: #282938;
     font-family: var(--poppins);
     font-size: 48px;
     font-weight: 600;
+    padding: 0px 330px;
+    padding-bottom: 47px;
+
+}
+
+#Features-part .box-all{
+    background-color: #FFF;
+    width: 405px;
+    height: 316px;
 }
 
 
+#Features-part .box-all:hover{
+    box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+#Features-part .box-all .mar-pad-48{
+    padding: 27px;
+}
+
+#Features-part .box-all .mar-pad-48 h4{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+#Features-part .box-all .mar-pad-48 p{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+
+
+
 /* ===========Features part- end============= */
+
+
+
+/* ===========clients-part-start============= */
+#clients-part{
+    padding: 128px 0;
+    border: 1px solid #000;
+    
+}
+
+#clients-part .client-left h1{
+    color:  #282938;
+    font-family: var(--poppins);
+    font-size: 38px;
+    font-weight: 600;
+    padding-right: 23px;
+    margin-bottom: 16px;
+}
+
+#clients-part .client-left p{
+    color:  #282938;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 23px;
+    opacity: 0.7;
+}
+
+#clients-part .client-right h2{
+    color:#282938;
+    font-family: var(--poppins);
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 48px;
+}
+
+#clients-part .client-right .d-flex .img-width{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#clients-part .client-right .d-flex .client-details{
+    padding-left: 10px;
+}
+
+#clients-part .client-right .d-flex .client-details h5{
+    color:  #282938;
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+#clients-part .client-right .d-flex .client-details p{
+    color:  #282938;
+    font-family: var(--poppins);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+/* ===========clients-part-end============= */
+
+
+
+
+/* ===========questions-part-start============= */
+#questions-part{
+    padding: 128px 0;
+}
+
+#questions-part .questions-part-left h1{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 38px;
+    font-weight: 600;
+    padding-right: 83px;
+    margin-bottom: 16px;
+}
+
+#questions-part .questions-part-left a{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500; 
+    opacity: 0.87;
+}
+
+#questions-part .questions-part-left a:hover{
+    color: #2405F2;
+    
+}
+
+
+
+/* ===========questions-part-end============= */
 
 
 
