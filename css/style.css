@@ -772,6 +772,34 @@ h1,h2,h3,h4,h5,h6,div,li,p{
     font-weight: 400;
 }
 
+#lets-talk-part .pad-mar .footer-right h1{
+    color: #FFF;
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+} 
+
+
+#lets-talk-part .pad-mar .footer-right p{
+    color: #F4F6FC;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+#lets-talk-part .pad-mar .footer-right .social-icons a{
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
 
 /* ===========Lets Talk!-part-end============= */
 
