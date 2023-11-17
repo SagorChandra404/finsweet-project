@@ -610,7 +610,6 @@ h1,h2,h3,h4,h5,h6,div,li,p{
 #form-part .form-right-part .btn{
     display: flex;
     justify-content: center;
-    align-items: center;
     padding-top: 57px;
 }
 
@@ -622,8 +621,9 @@ h1,h2,h3,h4,h5,h6,div,li,p{
     font-family: var(--manrope);
     font-size: 18px;
     font-weight: 600;
-    padding: 15px 51px;
+    padding: 16px 51px;
     border-radius: 41px;
+    
 }
 
 #form-part .form-right-part .btn-2{
@@ -640,11 +640,44 @@ h1,h2,h3,h4,h5,h6,div,li,p{
     line-height: 32px; 
 }
 
+.form-control{
+    background: transparent;
+}
+.wd-color{
+    color:  #F4F6FC;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+    background: #1C1E53!important;
+  border-color: #96d3ec;
+  color: white;
+}
 
 
 
 
 /* ===========form-part-end============= */
+
+
+
+
+
+/* ===========our-blog-part-start============= */
+#our-blog-part .our-blog-title h1{
+    color:  #282938;
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+/* ===========our-blog-part-end============= */
 
 
 
