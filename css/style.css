@@ -722,3 +722,59 @@ h1,h2,h3,h4,h5,h6,div,li,p{
 
 
 
+/* ===========Lets Talk!-part-start============= */
+#lets-talk-part{
+    background-color: #1C1E53;
+}
+#lets-talk-part .pad-mar{
+    padding: 100px 0;
+}
+
+#lets-talk-part .pad-mar p{
+    color:  #FFF;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 179px;
+    padding-top: 20px;
+}
+
+#lets-talk-part .pad-mar .yelow-contact-us{
+    background-color: #FCD980;
+    margin-top: 86px;
+}
+
+#lets-talk-part .pad-mar .yelow-contact-us .email ul li p{
+    color:  #282938;
+    font-family:var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#lets-talk-part .pad-mar .yelow-contact-us .email ul li a{
+    color:  #282938;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#lets-talk-part .pad-mar .yelow-contact-us .call ul li p{
+    color:  #282938;
+    font-family:var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+} 
+
+#lets-talk-part .pad-mar .yelow-contact-us .call ul li a{
+    color:  #282938;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* ===========Lets Talk!-part-end============= */
+
+
+
+
