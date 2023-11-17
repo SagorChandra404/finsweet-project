@@ -676,6 +676,46 @@ h1,h2,h3,h4,h5,h6,div,li,p{
     text-transform: capitalize;
 }
 
+#our-blog-part .pad-mar{
+    padding: 128px 0;
+}
+
+#our-blog-part .pad-mar .boxes h6{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.7;
+    padding-top: 40px;
+}
+
+#our-blog-part .pad-mar .boxes h4{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 16px;
+}
+
+#our-blog-part .pad-mar .boxes p{
+    color:  #282938;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    padding-top: 16px;
+    padding-bottom: 40px;
+
+}
+
+#our-blog-part .pad-mar .boxes a{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
 
 /* ===========our-blog-part-end============= */
 
