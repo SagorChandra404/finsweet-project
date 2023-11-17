@@ -543,3 +543,48 @@ h1,h2,h3,h4,h5,h6,div,li,p{
 
 
 
+/* ===========form-part-start============= */
+#form-part{
+    padding-bottom: 128px;
+}
+
+#form-part .bg-image{
+    background-image: url(../images/woman-writing-on-paper-3228878.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 656px;
+    height: 691px;
+
+}
+
+#form-part .bg-image .overlay{
+    padding: 96px 96px 261px 96px;
+    width: 656px;
+    height: 691px;
+    background: rgba(28, 30, 83, 0.50);
+}
+
+#form-part .bg-image .overlay h1{
+    color:  #FFF;
+    font-family: var(--poppins);
+    font-size: 54px;
+    font-weight: 600;
+    padding-bottom: 24px;
+}
+
+#form-part .bg-image .overlay p{
+    color: #FFF;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.87;
+}
+
+
+/* ===========form-part-end============= */
+
+
+
+
