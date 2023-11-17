@@ -583,6 +583,67 @@ h1,h2,h3,h4,h5,h6,div,li,p{
 }
 
 
+#form-part .form-right-part{
+    background-color: #1C1E53;
+    width: 624px;
+    height: 691px;
+    padding: 96px 96px 48px 96px;
+}
+
+
+#form-part .form-right-part h2{
+    color: #FFF;
+    font-family: var(--poppins);
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+#form-part .form-right-part p{
+    color: #F4F6FC;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+#form-part .form-right-part .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 57px;
+}
+
+#form-part .form-right-part .btn a{
+    background-color: #FCD980;
+    width: 432px;
+    height: 64px;
+    color: #1B1C2B;
+    font-family: var(--manrope);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 51px;
+    border-radius: 41px;
+}
+
+#form-part .form-right-part .btn-2{
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+}
+
+#form-part .form-right-part .btn-2 a{
+    color:  #FFF;
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px; 
+}
+
+
+
+
+
 /* ===========form-part-end============= */
 
 
