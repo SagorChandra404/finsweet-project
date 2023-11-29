@@ -1,0 +1,156 @@
+
+@media (max-width: 1199.98px) { 
+/* ======== banner-part-responsive start ========= */
+    .marpad_td{
+        padding: 50px 0 !important;
+    }
+    
+    #banner-part .banner-left .banner-left-btn a {
+        padding: 12px 25px;
+        
+    }
+
+ /* ======== banner-part-responsive end ========= */
+
+
+
+/* ======== work-part-responsive start ========= */
+
+    #work-part {
+        padding: 80px 0;
+    }
+
+/* ======== work-part-responsive end ========= */
+
+}
+
+
+
+@media (max-width: 991.98px) { 
+ /* ======== banner-part-responsive start ========= */
+    .contact-btn {
+        margin-left: 0px !important;
+    }
+
+    #banner-part .custom_navbar ul li a {
+        padding-right: 0;
+       
+    }
+
+    .banner-left h3 {
+        text-align: center;
+    }
+
+    .banner-left p{
+        text-align: center;
+        padding: 0;
+    }
+
+    .banner-left-btn{
+        text-align: center;
+        margin-top: 30px !important;
+    }
+
+    .banner-right {
+        margin-top: 30px;
+    }
+
+/* ======== banner-part-responsive end ========= */
+
+
+/* ======== work-part-responsive start ========= */
+    .work-left h1 {
+        text-align: center;
+    }
+
+    .work-left p{
+        padding-right: 0rem !important;
+        margin-top: 10px;
+    }
+
+    .work-left .get{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .Strategy{
+        margin-top: 40px;
+    }
+
+    .Strategy h1{
+        margin-top: 10px;
+    }
+    .Strategy p{
+        margin-top: 10px;
+    }
+
+/* ======== work-part-responsive end ========= */
+ }
+
+
+ @media (max-width: 767.98px) {
+/* ======== banner-part-responsive start ========= */
+    .banner-left p{
+        padding: 0 !important;
+    }
+
+    .banner-left-btn{
+        padding-left: 30px;
+    }
+
+/* ======== banner-part-responsive end ========= */
+
+
+/* ======== work-part-responsive start ========= */
+    .work-left p{
+        text-align: center;
+    }
+
+    .work-left .get{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+/* ======== work-part-responsive end ========= */
+  }
+
+
+  @media (max-width: 460.98px) {
+/* ======== banner-part-responsive start ========= */
+
+    .banner-left h3{
+        font-size: 30px !important;
+    }
+     .banner-left {
+        padding-left: 0 !important;
+    }
+    .banner-left-btn{
+        padding-left: 10px;
+    }
+    .banner-left-btn a{
+        display: block;
+        margin-bottom: 10px;
+    }
+    #banner-part .banner-left .banner-left-btn a {
+        padding: 12px 25px;
+        margin-right: 10px;
+    }
+
+/* ======== banner-part-responsive end ========= */
+
+
+/* ======== work-part-responsive start ========= */
+    .Strategy{
+        text-align: center;
+    }
+
+    .Strategy p{
+        padding-right: 0px !important;
+        text-align: center;
+    }
+
+/* ======== work-part-responsive end ========= */
+  }
+
+
+

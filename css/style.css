@@ -64,7 +64,7 @@ h1,h2,h3,h4,h5,h6,div,li,p{
     margin-left: 40px;
 }
 
-#banner-part .custom_navbar .contact-btn button{
+#banner-part .custom_navbar .contact-btn a button{
     color:  #FFF;
     font-family: var(--poppins);
     font-size: 16px;
@@ -125,7 +125,8 @@ h1,h2,h3,h4,h5,h6,div,li,p{
     padding: 12px 50px;
     border-radius: 41px;
     margin-right: 40px;
-    transition: all linear 0.3s;
+    color: #1B1C2B;
+    background: #FCD980; 
 }
 
 
@@ -161,7 +162,7 @@ h1,h2,h3,h4,h5,h6,div,li,p{
     padding-right: 8rem;
 }
 
-#work-part  .work-left a{
+#work-part  .work-left .get a{
     color: #282938;
     font-family: var(--poppins);
     font-size: 18px;
@@ -170,11 +171,11 @@ h1,h2,h3,h4,h5,h6,div,li,p{
 }
 
 
-#work-part  .work-left  a .arow_icon{
+#work-part  .work-left .get  a .arow_icon{
     margin-left: 10px;
 }
 
-#work-part  .work-left  a:hover{
+#work-part  .work-left .get  a:hover{
     color: #2405F2;
 }
 
@@ -241,9 +242,12 @@ h1,h2,h3,h4,h5,h6,div,li,p{
 
 
 #project-view .pad-mar .left-img{
-    width: 843px;
+    
+    max-width: 100%;
     height: 600px;
     background: url(../images/Card.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     overflow: hidden;
     
@@ -252,9 +256,10 @@ h1,h2,h3,h4,h5,h6,div,li,p{
 
 
 #project-view .pad-mar .left-img .overlay {
-    left: -47%;
+    left: -50%;
     right: 0;
-    width: 396px;
+    /* max-width: 396px; */
+    max-width: 50%;
     height: 600px;
     background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
     position: absolute;
@@ -300,24 +305,30 @@ h1,h2,h3,h4,h5,h6,div,li,p{
 }
 
 #project-view .pad-mar .img-one{
-    width: 405px;
+    /* width: 405px; */
+    max-width: 100%;
     height: 284px;
     background: url(../images/Rectangle\ 1313.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     overflow: hidden;
+    
     
 }
 
 #project-view .pad-mar .img-one:hover .overlay-two{
     left: 0%;
-    transition: all ease-out 0.3s;
+    transition: all ease-out 1s;
+    
 }
 
 #project-view .pad-mar .img-one .overlay-two{
     position: absolute;
-    left: -98%;
+    left: -100%;
     right: 0%;
-    width: 405px;
+    /* width: 405px; */
+    max-width: 100%;
     height: 284px;
     background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
 }
@@ -348,9 +359,11 @@ h1,h2,h3,h4,h5,h6,div,li,p{
 } 
 
 #project-view .pad-mar .img-two{
+    background-image: url(../images/Card\ 2.jpg);
     padding-top: 32px;
-    width: 405px;
+    max-width: 100%;
     height: 284px;
+    margin-top: 30px;
 
 }
  
