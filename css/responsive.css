@@ -25,9 +25,30 @@
 
 
 
-/* ======== Project-part-responsive start ========= */
+/* ======== Features-part-responsive start ========= */
 
-/* ======== Project-part-responsive end ========= */
+  .heading-width{
+    padding: 0 !important;
+    margin-bottom: 20px;
+  }  
+
+/* ======== Features-part-responsive end ========= */
+
+
+
+/* ======== clients-part-responsive start ========= */
+    .client-left h1{
+        font-size: 25px !important;
+    }
+
+    .client-right h2{
+        font-size: 25px !important;
+    }
+
+
+/* ======== clients-part-responsive end ========= */
+
+
 
 }
 
@@ -98,6 +119,14 @@
         margin-top: 20px;
     }  
 /* ======== Project-part-responsive end ========= */
+
+
+/* ======== clients-part-responsive start ========= */
+    .client-right h2{
+        margin-top: 20px;
+    }
+
+/* ======== clients-part-responsive end ========= */
  }
 
 
@@ -177,6 +206,22 @@
   }
 
 /* ======== Project-part-responsive end ========= */
+
+
+/* ======== clients-part-responsive start ========= */
+  .client-left h1{
+    font-size: 20px !important;
+  }
+
+  .client-left p{
+    font-size: 13px !important;
+  }
+
+  .client-right h2{
+    font-size: 20px !important;
+  }
+
+/* ======== clients-part-responsive end ========= */
   }
 
 
